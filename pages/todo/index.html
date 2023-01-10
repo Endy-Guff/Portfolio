@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <div class="wrapper">
+    <div class="wrapper__aside">
+      <div class="notes__container">
+        <div class="notes__btn-box">
+          <button id="addBtn">
+            <img src="img/cross.svg" alt="">
+          </button>
+        </div>
+        <div class="notes__selectors">
+          <div class="notes__selector notes__selector--1" data-num="1"></div>
+          <div class="notes__selector notes__selector--2" data-num="2"></div>
+          <div class="notes__selector notes__selector--3" data-num="3"></div>
+          <div class="notes__selector notes__selector--4" data-num="4"></div>
+          <div class="notes__selector notes__selector--5" data-num="5"></div>
+        </div>
+        <svg class="filter-svg">
+          <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="7" />
+            <feColorMatrix values="
+              1 0 0 0 0
+              0 1 0 0 0
+              0 0 1 0 0
+              0 0 0 20 -10
+            " />
+            <feComposite
+              in="SourceGraphic"
+              in2="gooey"
+              operator="atop"
+            />
+          </filter>
+        </svg>
+      </div>
+    </div>
+    <div class="wrapper__content">
+      <h1 class="title">Todo</h1>
+      <div class="wrapper__inner">
+        <ul class="wrapper__content-list">
+          <!-- <li class="wrapper__content-item">
+              <svg width="271" height="190" viewBox="0 0 271 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.5 19.5L1.14255 18.3985C2.65536 15.8051 6.10648 15.1384 8.47642 16.9817V16.9817C8.49027 16.9924 8.49499 17.0113 8.48787 17.0273L7.23746 19.8407C6.81916 20.7819 5.75448 21.2515 4.77739 20.9258L0.5 19.5Z" fill="#EBF2A6"/>
+              </svg>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+    <script src="js/anime.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+@font-face { 
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/HelveticaNeueCyrBold.woff') format('woff'), url('../fonts/HelveticaNeueCyrBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
