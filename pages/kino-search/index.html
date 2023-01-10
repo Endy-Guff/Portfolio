@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__layers">
+            <div class="header__layer header__layer--bg"></div>
+            <div class="header__layer header__layer--2"></div>
+            <div class="header__layer header__layer--1"></div>
+            <div class="header__layer-content">
+                <p class="header__layer-text">Кино <span class="header__layer-text--blue">Search</span></p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="search">
+                <div class="search__inner">
+                    <input class="search__input" type="text">
+                    <button class="search__btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.5605 18.4395L16.7528 14.6318C17.5395 13.446 18 12.0262 18 10.5C18 6.3645 14.6355 3 10.5 3C6.3645 3 3 6.3645 3 10.5C3 14.6355 6.3645 18 10.5 18C12.0262 18 13.446 17.5395 14.6318 16.7528L18.4395 20.5605C19.0245 21.1462 19.9755 21.1462 20.5605 20.5605C21.1462 19.9748 21.1462 19.0252 20.5605 18.4395ZM5.25 10.5C5.25 7.605 7.605 5.25 10.5 5.25C13.395 5.25 15.75 7.605 15.75 10.5C15.75 13.395 13.395 15.75 10.5 15.75C7.605 15.75 5.25 13.395 5.25 10.5Z" fill="#0054FF"/>
+                            </svg>
+                    </button>
+                </div>
+            </div>
+            <h1 class="title">
+                Топ 100 фильмов
+            </h1>
+            <div class="films">
+                <div class="films__items">
+                    <!-- <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div>
+                    <div class="films__item">
+                        <div class="films__item-wrap">
+                            <div class="films__item-inner">
+                                <div class="films__rating-box">
+                                    <span class="fims__rating-num">
+                                        9.5
+                                    </span>
+                                    <p class="films__rating-score">
+                                        Отлично!
+                                    </p>
+                                </div>
+                                <div class="films__desc-box">
+                                    <p class="films__desc">
+                                        2010, США, Боевик
+                                    </p>
+                                    <span class="films__desc-time">
+                                        93 минуты
+                                    </span>
+                                </div>
+                                <button class="films__btn">
+                                    ПОДРОБНЕЕ
+                                </button>
+                            </div>
+                        </div>
+                        <p class="films__name">
+                            Паркер
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+            <button class="main__btn">
+                Загрузить еще
+            </button>
+        </div>
+    </main>
+
+    <div class="modal modal--inactive">
+        <div class="modal__inner">
+            <div class="modal__aside">
+                <div class="modal__img-box">
+                    <img src="#" alt="film-poster">
+                </div>
+                <p class="modal__film-name">
+                    Паркер
+                </p>
+                <p class="modal__desc">
+                    <span>Описание:</span> описание
+                </p>
+            </div>
+            <div class="modal__content">
+                <h3 class="modal__title">
+                    О фильме
+                </h3>
+                <div class="modal__property">
+                    <div class="modal__property-names">
+                        <p class="modal__property-name">
+                            Год:
+                        </p>
+                        <p class="modal__property-name">
+                            Страна:
+                        </p>
+                        <p class="modal__property-name">
+                            Жанр:
+                        </p>
+                        <p class="modal__property-name">
+                            Слоган: 
+                        </p>
+                        <p class="modal__property-name">
+                            Длительность:
+                        </p>
+                    </div>
+                    <div class="modal__property-values">
+                        <p class="modal__property-value" id="filmYear">
+                            2007
+                        </p>
+                        <p class="modal__property-value" id="filmCountry">
+                            США 
+                        </p>
+                        <p class="modal__property-value" id="filmGenre">
+                            Боевик 
+                        </p>
+                        <p class="modal__property-value" id="filmSlogan">
+                            Слоган слоган
+                        </p>
+                        <p class="modal__property-value" id="filmLength">
+                            136 минут
+                        </p>
+                    </div>
+                </div>
+                <div class="modal__tabs-box">
+                    <div class="modal__tabs">
+                        <div class="modal__tab modal__tab--active">
+                            АКТЁРЫ
+                        </div>
+                        <div class="modal__tab">
+                            РЕЖИССЁРЫ
+                        </div>
+                    </div>
+                    <div class="modal__tabs-items">
+                        <div class="modal__tabs-item modal__tabs-item--active modal__tabs-item--animation" id="actors">
+                            <!-- <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div> -->
+                        </div>
+                        <div class="modal__tabs-item modal__tabs-item--inactive" id="directors">
+                            <!-- <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div>
+                            <div class="modal__item-inner">
+                                <div class="modal__item-img">
+                                    <img src="#" alt="">
+                                </div>
+                                <p class="modal__item-name">
+                                    Роберт Шоу
+                                </p>
+                                <p class="modal__item-role">
+                                    Генри
+                                </p>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__close">
+                <img src="img/icon/close.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
