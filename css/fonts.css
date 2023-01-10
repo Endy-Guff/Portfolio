@@ -1,0 +1,28 @@
+@font-face { 
+    font-family: 'IBMPlexSerif';
+    src: url('../fonts/IBMPlexSerif.woff') format('woff'), url('../fonts/IBMPlexSerif.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face { 
+  font-family: 'HelveticaNeueCondensed';
+  src: url('../fonts/HelveticaNeueCondensed.woff') format('woff'), url('../fonts/HelveticaNeueCondensed.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'digital';
+  src: url('../fonts/digital.woff') format('woff'), url('../fonts/digital.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face { 
+  font-family: 'HelveticaNeueCyr';
+  src: url('../fonts/HelveticaNeueCyr.woff') format('woff'), url('../fonts/HelveticaNeueCyr.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header header-library">
+        <h1 class="header__title-library">
+            Добро пожаловать в мою библиотеку
+        </h1>
+    </header> 
+    <main class="main">
+        <div class="container">
+            <section class="desc">
+                <h2 class="title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                    Здесь собраны разного рода программы, которые я делал. Все они сделаны на нативном JavaScript    
+                </h2>
+            </section> 
+            <section class="piano">
+                <div class="piano__inner">
+                    <h2 class="title piano__title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                        Пианино
+                    </h2>
+
+                    <div class="piano__wrapper wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                        <div class="piano__header">
+                            <h1 class="piano__header-title">
+                                Пианино
+                            </h1>
+                            <div class="piano__volume-box">
+                                <img class="piano__volume-low" src="img/volume-.svg" alt="">
+                                <input class="piano__volume" type="range" min="0" max="1" value="0.5" step="any">
+                                <img class="piano__volume-high" src="img/volume+.svg" alt="">
+                            </div>
+                            <div class="piano__checkbox-inner">
+                                <span>Раскладка</span>
+                                <input class="piano__checkbox" type="checkbox" checked>
+                            </div>
+                        </div>
+                        <piano class="piano__main">
+                            <ul class="piano__keys">
+                                <li class="piano__keys__item piano__white" data-key="a">a</li>
+                                <li class="piano__keys__item piano__black" data-key="w">w</li>
+                                <li class="piano__keys__item piano__white" data-key="s">s</li>
+                                <li class="piano__keys__item piano__black" data-key="e">e</li>
+                                <li class="piano__keys__item piano__white" data-key="d">d</li>
+                                <li class="piano__keys__item piano__white" data-key="f">f</li>
+                                <li class="piano__keys__item piano__black" data-key="t">t</li>
+                                <li class="piano__keys__item piano__white" data-key="g">g</li>
+                                <li class="piano__keys__item piano__black" data-key="y">y</li>
+                                <li class="piano__keys__item piano__white" data-key="h">h</li>
+                                <li class="piano__keys__item piano__black" data-key="u">u</li>
+                                <li class="piano__keys__item piano__white" data-key="j">j</li>
+                                <li class="piano__keys__item piano__white" data-key="k">k</li>
+                                <li class="piano__keys__item piano__black" data-key="o">o</li>
+                                <li class="piano__keys__item piano__white" data-key="l">l</li>
+                                <li class="piano__keys__item piano__black" data-key="p">p</li>
+                                <li class="piano__keys__item piano__white" data-key=";">;</li>
+                            </ul>
+                        </piano>
+                    </div>
+
+                </div>
+            </section> 
+            <section class="calc">
+                <div class="calc__inner">
+                    <div class="calc__title-box wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                        <h2 class="title calc__title">Калькулятор</h2>
+                        <p class="calc__text">
+                            Моим вторым приложением сделанным на JS был калькулятор
+                        </p>
+                    </div>
+                    <div class="calc__wrapper wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                        <div class="calc__wrapper-bg"></div>
+                        <input class="calc__checkbox" type="checkbox">
+                        <div class="calc__wrapper-inner">
+                            <div class="calc__screen">
+                                <span class="calc__screen-value">
+                                    0
+                                </span>
+                            </div>
+                            <ul class="calc__btn-list">
+                                <li class="calc__btn-item" data-btn="c"><span>C</span></li>
+                                <li class="calc__btn-item" data-btn="±"><span>±</span></li>
+                                <li class="calc__btn-item" data-btn="/"><span>÷</span></li>
+                                <li class="calc__btn-item" data-btn="*"><span>×</span></li>
+                                <li class="calc__btn-item" data-btn="7"><span>7</span></li>
+                                <li class="calc__btn-item" data-btn="8"><span>8</span></li>
+                                <li class="calc__btn-item" data-btn="9"><span>9</span></li>
+                                <li class="calc__btn-item" data-btn="-"><span>-</span></li>
+                                <li class="calc__btn-item" data-btn="4"><span>4</span></li>
+                                <li class="calc__btn-item" data-btn="5"><span>5</span></li>
+                                <li class="calc__btn-item" data-btn="6"><span>6</span></li>
+                                <li class="calc__btn-item" data-btn="+"><span>+</span></li>
+                                <li class="calc__btn-item" data-btn="1"><span>1</span></li>
+                                <li class="calc__btn-item" data-btn="2"><span>2</span></li>
+                                <li class="calc__btn-item" data-btn="3"><span>3</span></li>
+                                <li class="calc__btn-item calc__btn-item--equal" data-btn="=">=</li>
+                                <li class="calc__btn-item calc__btn-item--zero" data-btn="0">0</li>
+                                <li class="calc__btn-item" data-btn=".">.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <section class="curr">
+                <div class="curr__inner">
+                    <img class="curr__img wow animate__animated animate__fadeInUp" data-wow-delay="0.5s" src="img/macbook-calc.png" alt="">
+                    <div class="curr__title-box">
+                        <h2 class="title curr__title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            Калькулятор валют
+                        </h2>
+                        <p class="curr__text wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            В данном мини-проекте я начал свое знакомство с библиотекой Anime.js
+                        </p>
+                        <button class="curr__btn wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            <p class="curr__btn-text">Смотреть</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="todo">
+                <div class="todo__inner">
+                    <img class="todo__img wow animate__animated animate__fadeInUp" data-wow-delay="0.5s" src="img/macbook-todo.png" alt="">
+                    <div class="todo__title-box">
+                        <h2 class="title todo__title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            приложение Todo
+                        </h2>
+                        <p class="todo__text wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            В данном мини-проекте я использовал анимацию SVG 
+                        </p>
+                        <button class="todo__btn wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+                            <p class="todo__btn-text">Смотреть</p>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/piano.js"></script>
+    <script src="js/calc.js"></script>
+    <script src="js/library.js"></script>
+</body>
+</html>
